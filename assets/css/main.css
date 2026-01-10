@@ -234,6 +234,22 @@ img {
   padding: 60px 0;
   text-align: center;
 }
+.about-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    max-width: 90%;
+    margin: 0 auto; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15); 
+}
+
 
 /* CTA */
 
