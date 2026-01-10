@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Hartlink Scholar Transport</title>
+    <title>About Us | Hart Link Scholar Transport</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="assets/css/about.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -15,8 +19,8 @@
     <header class="header">
         <div class="container nav-container">
             <div class="logo">
-                <img src="images/logo.png" alt="Hartlink Logo">
-                <span>Hartlink Scholar Transport</span>
+                <img src="assets/images/logo.png" alt="Hart Link Logo">
+                <span><strong>Hart Link</strong> Scholar Transport</span>
             </div>
 
             <nav class="nav">
@@ -24,61 +28,59 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html" class="active">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li>
-                        <a href="contact.html" class="btn btn-nav">Get a Quote</a>
-                    </li>
+                    <li><a href="contact.html" class="btn btn-nav">Get a Quote</a></li>
                 </ul>
             </nav>
 
-            <button class="menu-toggle">☰</button>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
     </header>
 
-    <!-- About Hero -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>About Hartlink Scholar Transport</h1>
-                <p>
-                    We are committed to providing safe, reliable, and affordable scholar transport
-                    services for families and schools.
-                </p>
-            </div>
+    <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Hart Link Scholar Transport</h1>
+            <p>
+                We are committed to providing safe, reliable, and affordable scholar transport services
+                for families and schools.
+            </p>
         </div>
     </section>
 
     <!-- About Content -->
-    <section class="about-preview">
+    <section class="about-content">
         <div class="container">
-            <h2>Who We Are</h2>
-            <p>
-                Hartlink Scholar Transport is a locally operated transport service dedicated
-                to ensuring learners arrive at school and return home safely every day.
-                We understand the trust parents place in us, and safety is our top priority.
-            </p>
+            <div class="about-card">
+                <h2>Who We Are</h2>
+                <p>
+                    Hart Link Scholar Transport is a locally operated transport service dedicated
+                    to ensuring learners arrive at school and return home safely every day.
+                    We understand the trust parents place in us, and safety is our top priority.
+                </p>
+            </div>
 
-            <br>
+            <div class="about-card">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to offer dependable scholar transport that parents can trust,
+                    supported by experienced drivers, well-maintained vehicles, and clear communication.
+                </p>
+            </div>
 
-            <h2>Our Mission</h2>
-            <p>
-                Our mission is to offer dependable scholar transport that parents can trust,
-                supported by experienced drivers, well-maintained vehicles, and clear communication.
-            </p>
-
-            <br>
-
-            <h2>Why Choose Us</h2>
-            <p>
-                ✔ Focus on learner safety<br>
-                ✔ Reliable pick-up and drop-off times<br>
-                ✔ Friendly and professional drivers<br>
-                ✔ Service tailored to local communities
-            </p>
+            <div class="about-card">
+                <h2>Why Choose Us</h2>
+                <ul class="why-choose-us">
+                    <li>Focus on learner safety</li>
+                    <li>Reliable pick-up and drop-off times</li>
+                    <li>Friendly and professional drivers</li>
+                    <li>Service tailored to local communities</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- Call To Action -->
-    <section class="cta">
+    <section class="about-cta">
         <div class="container">
             <h2>Looking for Safe Scholar Transport?</h2>
             <p>Contact us today to discuss routes, availability, and pricing.</p>
@@ -89,22 +91,32 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
-            <div>
-                <h4>Hartlink Scholar Transport</h4>
-                <p>Safe & Reliable School Transport</p>
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Hart Link Scholar Transport Logo">
+                    <span>Hart Link Scholar Transport</span>
+                </div>
+                <p>Safe | Reliable | Caring</p>
             </div>
 
-            <div>
-                <h4>Contact</h4>
-                <p>Phone: 07X XXX XXXX</p>
-                <p>Email: info@hartlink.co.za</p>
+            <div class="footer-contact">
+                <p><strong>Phone:</strong> 
+                    <a href="tel:+27680788006">+27-68 078 8006</a> or 
+                    <a href="tel:+27658505950">+27-65 850 5950</a>
+                </p>
+                <p><strong>Email:</strong> 
+                    <a href="mailto:info@hartlink.co.za">info@hartlink.co.za</a>
+                </p>
+                <p><strong>Operating Hours:</strong> Mon - Fri, 07:00 - 18:00</p>
             </div>
         </div>
 
-        <div class="container footer-bottom">
+        <div class="footer-bottom">
             <p>&copy; 2026 Hartlink Scholar Transport. All rights reserved.</p>
         </div>
     </footer>
 
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
