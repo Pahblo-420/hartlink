@@ -14,7 +14,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #222;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
 
 /* Global Utilities */
@@ -214,11 +214,18 @@ img {
 }
 
 .feature-card {
-  padding: 25px;
-  border: 1px solid #eaeaea;
-  border-radius: 8px;
-  background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #f0f8ff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.feature-card:hover {
+    transform: translateY(-8px); /* lifts card on hover */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); /* stronger shadow */
+}
+
+
 
 /* About Preview */
 
