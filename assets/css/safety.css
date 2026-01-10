@@ -1,31 +1,33 @@
+/* ===== Safety Page Styles ===== */
+
 /* Hero Section */
-.services-hero {
+.safety-hero {
     background-color: #f5f5f5;
     padding: 80px 0;
     text-align: center;
 }
 
-.services-hero h1 {
+.safety-hero h1 {
     font-size: 2.8rem;
     color: #0b5ed7;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.services-hero p {
-    font-size: 1.1rem;
+.safety-hero p {
+    font-size: 1.2rem;
     color: #555;
     max-width: 700px;
     margin: 0 auto;
 }
 
-/* Features Cards */
-.services-features {
+/* Safety Feature Cards */
+.safety-features {
     padding: 60px 0;
 }
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
@@ -45,7 +47,7 @@
 
 .feature-card h3 {
     color: #0b5ed7;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .feature-card p {
@@ -58,49 +60,44 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-/* Call To Action */
-.services-cta {
+/* CTA Section */
+.safety-cta {
     background-color: #0b5ed7;
     color: #ffffff;
     padding: 60px 0;
     text-align: center;
 }
 
-.services-cta h2 {
+.safety-cta h2 {
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
-.services-cta p {
+.safety-cta p {
     font-size: 1.1rem;
     margin-bottom: 25px;
 }
 
-.services-cta .btn {
+.safety-cta .btn {
     padding: 14px 28px;
     border-radius: 8px;
     font-weight: 600;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
 }
 
-.services-cta .btn.primary:hover {
+.safety-cta .btn.primary:hover {
     transform: scale(1.05);
 }
 
 /* Responsive */
 @media (max-width: 992px) {
     .features-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 768px) {
-    .features-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .services-hero h1 {
+@media (max-width: 480px) {
+    .safety-hero h1 {
         font-size: 2rem;
     }
 
