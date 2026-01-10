@@ -5,127 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Hartlink Scholar Transport</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="container nav-container">
-            <div class="logo">
-                <img src="images/logo.png" alt="Hartlink Logo">
-                <span>Hartlink Scholar Transport</span>
-            </div>
-
-            <nav class="nav">
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li>
-                        <a href="contact.html" class="btn btn-nav active">Get a Quote</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <button class="menu-toggle">☰</button>
+<!-- Header -->
+<header class="header">
+    <div class="container nav-container">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Hartlink Logo">
+            <span>Hartlink Scholar Transport</span>
         </div>
-    </header>
 
-    <!-- Contact Hero -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text">
-                <h1>Get in Touch</h1>
-                <p>
-                    Have questions or need a quote for scholar transport?
-                    Contact us using the details below.
-                </p>
-            </div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="btn btn-nav active">Get a Quote</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="contact-hero">
+    <div class="container hero-content">
+        <h1>Get in Touch</h1>
+        <p>
+            Have questions or need a quote for scholar transport?
+            We’re here to help.
+        </p>
+    </div>
+</section>
+
+<!-- Contact Content -->
+<section class="contact-section">
+    <div class="container contact-grid">
+
+        <!-- Contact Details -->
+        <div class="contact-card">
+            <i class="fas fa-phone-volume"></i>
+            <h3>Contact Information</h3>
+            <p><strong>Phone:</strong> 
+                <a href="tel:+27680788006">+27 68 078 8006</a>
+            </p>
+            <p><strong>WhatsApp:</strong> 
+                <a href="https://wa.me/27680788006" target="_blank">
+                    +27 68 078 8006
+                </a>
+            </p>
+            <p><strong>Email:</strong> 
+                <a href="mailto:info@hartlink.co.za">info@hartlink.co.za</a>
+            </p>
+            <p><strong>Operating Hours:</strong><br>
+                Mon – Fri, 06:00 – 18:00
+            </p>
         </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section class="features">
-        <div class="container">
-            <div class="features-grid">
-
-                <!-- Contact Details -->
-                <div class="feature-card">
-                    <h3>Contact Information</h3>
-                    <p><strong>Phone:</strong> 07X XXX XXXX</p>
-                    <p><strong>WhatsApp:</strong> 07X XXX XXXX</p>
-                    <p><strong>Email:</strong> info@hartlink.co.za</p>
-                    <p><strong>Operating Hours:</strong> Mon – Fri, 06:00 – 18:00</p>
-                </div>
-
-                <!-- Quote Info -->
-                <div class="feature-card">
-                    <h3>Request a Quote</h3>
-                    <p>
-                        To receive a quote, please provide:
-                    </p>
-                    <p>
-                        ✔ Learner’s school<br>
-                        ✔ Pick-up & drop-off area<br>
-                        ✔ Contact details
-                    </p>
-                    <p>
-                        Quotes are tailored based on distance and route availability.
-                    </p>
-                </div>
-
-                <!-- Quick Action -->
-                <div class="feature-card">
-                    <h3>Quick Contact</h3>
-                    <p>
-                        For faster responses, contact us directly via WhatsApp.
-                    </p>
-                    <a 
-                        href="https://wa.me/27XXXXXXXXX" 
-                        class="btn secondary"
-                        target="_blank"
-                    >
-                        WhatsApp Us
-                    </a>
-                </div>
-
-            </div>
+        <!-- Quote Info -->
+        <div class="contact-card">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Request a Quote</h3>
+            <p>Please have the following details ready:</p>
+            <ul>
+                <li>Learner’s school</li>
+                <li>Pick-up & drop-off area</li>
+                <li>Parent/guardian contact details</li>
+            </ul>
+            <p class="note">
+                Quotes are based on distance and route availability.
+            </p>
         </div>
-    </section>
 
-    <!-- CTA -->
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Get Started?</h2>
-            <p>Reach out today and let us help with safe scholar transport.</p>
-            <a href="https://wa.me/27XXXXXXXXX" class="btn primary" target="_blank">
-                Contact on WhatsApp
+        <!-- Quick Action -->
+        <div class="contact-card highlight">
+            <i class="fab fa-whatsapp"></i>
+            <h3>Quick Contact</h3>
+            <p>
+                For the fastest response, contact us directly on WhatsApp.
+            </p>
+            <a 
+                href="https://wa.me/27680788006"
+                class="btn secondary"
+                target="_blank"
+            >
+                WhatsApp Us
             </a>
         </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div>
-                <h4>Hartlink Scholar Transport</h4>
-                <p>Safe & Reliable School Transport</p>
-            </div>
+    </div>
+</section>
 
-            <div>
-                <h4>Contact</h4>
-                <p>Phone: 07X XXX XXXX</p>
-                <p>Email: info@hartlink.co.za</p>
+<!-- CTA -->
+<section class="contact-cta">
+    <div class="container">
+        <h2>Ready to Get Started?</h2>
+        <p>Reach out today and let us help with safe scholar transport.</p>
+        <a href="https://wa.me/27680788006" class="btn primary" target="_blank">
+            Contact on WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-info">
+            <div class="footer-logo">
+                <img src="assets/images/logo.png" alt="Hartlink Scholar Transport Logo">
+                <span>Hartlink Scholar Transport</span>
             </div>
+            <p>Safe | Reliable | Caring</p>
         </div>
 
-        <div class="container footer-bottom">
-            <p>&copy; 2026 Hartlink Scholar Transport. All rights reserved.</p>
+        <div class="footer-contact">
+            <p><strong>Phone:</strong> 
+                <a href="tel:+27680788006">+27 68 078 8006</a>
+            </p>
+            <p><strong>Email:</strong> 
+                <a href="mailto:info@hartlink.co.za">info@hartlink.co.za</a>
+            </p>
         </div>
-    </footer>
+    </div>
 
+    <div class="footer-bottom">
+        <p>&copy; 2026 Hartlink Scholar Transport. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
