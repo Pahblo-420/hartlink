@@ -100,6 +100,17 @@ img {
 
 .logo img {
   width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #0b5ed7; 
+    letter-spacing: 0.5px;
 }
 
 .nav-links {
