@@ -251,14 +251,83 @@ img {
 }
 
 
-/* CTA */
-
+/* CTA Section */
 .cta {
-  background-color: #0b5ed7;
-  color: #ffffff;
-  padding: 60px 0;
-  text-align: center;
+    background: linear-gradient(135deg, #98b7d3, #0c52d4); 
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 16px; 
+    max-width: 90%;
+    margin: 20px auto; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
+    
 }
+
+.cta h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#111; 
+}
+
+.cta p {
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+    color: #333; 
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 28px;
+    min-width: 160px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+
+.cta-buttons .btn.primary {
+    background-color: #0b5ed7;
+    color: #ffffff;
+}
+
+.cta-buttons .btn.primary:hover {
+    background-color:#094db3;
+    transform: scale(1.05);
+}
+
+
+.cta-buttons .btn.outline {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #000;
+}
+
+.cta-buttons .btn.outline:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #111;
+    transform: scale(1.05);
+}
+
+.cta-buttons .btn i {
+    font-size: 1.2rem;
+}
+
 
 /* Footer */
 
